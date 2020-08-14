@@ -1,0 +1,141 @@
+body {
+	margin: 0 auto;
+	background-color: #6056e9;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*font-family: 'Roboto', sans-serif;*/
+/*font-family: 'Comfortaa', cursive;*/
+
+.clear_both {
+	clear: both;
+}
+
+
+.logo {
+	margin: 55px 0 0 55px;
+}
+
+
+.search {
+	margin: 60px 62px 0 0;
+	float: right;
+	width: 884px;
+	height: 44px;
+	outline: none;
+	text-indent: 15px;
+	font-size: 24px;
+	color: #4840c1;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 0 20px 1px #4840c1;
+}
+.search::placeholder {
+	opacity: 80%;
+	text-indent: 15px;
+	font-size: 24px;
+	color: #626396;
+}
+
+
+/*NEWS NEWS NEWS NEWS*/
+
+.news_container {
+	float: right;	
+	width: 909px;
+	color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	margin: -230px 41px 0 0;
+}
+.news_block {
+	width: 278px;
+	height: 265px;
+	background-color: #5046d5;
+	box-shadow: 0 0 20px #4941bc;
+	margin: 0 25px 30px 0;
+	cursor: pointer;
+	transition: .3s;
+}
+.news_block:hover {
+	margin-top: -2px;
+}
+.news_title {
+	margin: 16px 0 5px 17px;
+	font-weight: 700;
+	font-size: 36px;
+}
+     
+.news_text {
+	font-weight: 300;
+	width: 244px;
+	margin: auto;
+	font-size: 22px;
+	line-height: 1.1;
+	color: #efeeff;
+}
+.news_more_text {
+	color: #b6b6b6;
+	cursor: pointer;
+}
+.news_more_text:hover {
+	color: grey;
+}
+
+/*NEWS NEWS NEWS NEWS*/
+
+
+
+/*MENU MENU MENU MENU*/
+.userNamePhoto {
+	width: 310px;	
+	height: 78px;
+	background-color: #5d54e4;
+	box-shadow: 0 0 30px #4e45c5;
+	margin: 40px 0 0 40px;
+	display: flex;
+	align-items: center;
+}
+.userNamePhoto img {
+	width: 64px;
+	height: 64px;
+}
+.image_oversize {
+	margin: 0 0 0 6px;
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.userName {
+	color: #fff;
+	font-size: 34px;
+	margin: 0 0 0 10px;
+}
+
+.menu {
+	width: 310px;	
+	cursor: pointer;
+	margin: 30px 0 0 40px;
+	text-align: center;
+	background-color: #5d54e4;
+	box-shadow: 0 0 30px #4e45c5;
+	border-radius: 6px;
+}
+
+.menu_list {
+	width: 310px;
+	color: #fff;
+	font-size: 35px;
+	line-height: 60px;
+	background-size: 0% 100%;
+	background-position: right;
+	background-image: linear-gradient(#6a5fff, #6a5fff);
+	background-repeat: no-repeat;
+	transition: .3s;
+}
+
+.menu_list:hover {
+	background-size: 100% 100%;
+}
+/*MENU MENU MENU MENU*/
